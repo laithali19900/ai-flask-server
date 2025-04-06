@@ -1,10 +1,6 @@
-from flask import Flask, request, send_file
-from flask_cors import CORS
-from PIL import Image, ImageDraw
-import io
-
-from flask import flask
+from flask import Flask
 app = Flask(__name__)
+
 CORS(app)
 
 @app.route('/process', methods=['POST'])
