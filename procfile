@@ -1,1 +1,1 @@
-web: amman app:app
+web: gunicorn app:app
