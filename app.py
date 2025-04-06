@@ -3,6 +3,7 @@ from flask_cors import CORS
 from PIL import Image, ImageDraw
 import io
 
+from flask import flask
 app = Flask(__name__)
 CORS(app)
 
